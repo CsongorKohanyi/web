@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rabszolga vásárlás</title>
-    <style>
-        body{
-            background-color: cadetblue;color: rgba(175, 38, 175, 0.77);
-        }
-    </style>
 </head>
 <body>
     <h1>Csongor Rabszolga Boltja</h1>
@@ -21,7 +16,7 @@
             <legend>Rabszolgák</legend>
             <input type="radio" name="cigány" id="01">
            <label for="01"">cigány</label>
-            <input type="range">
+            
             
             <input type="radio" name="román" id="02">
            <label for="02">román</label>
@@ -29,7 +24,25 @@
             <input type="radio" name="néger" id="03">
            <label for="03">néger</label>
 
-
+           <select title='Méretek'>
+            <option disabled=disable selected>---Válassz!--- </option>
+        
+                <optgroup>cigány</optgroup>
+                <option></option>
+                <option></option>
+                <option></option>
+            </optgroup>
+        
+            <optgroup label='román'>
+                <option></option>
+                <option></option>
+            </optgroup>
+        
+            <optgroup label='néger'>
+                <option></option>
+                <option></option>
+            </optgroup>
+        </select>
             <input type="submit" id="1.2">
         </fieldset>
 
