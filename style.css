@@ -60,18 +60,14 @@ footer a:hover{
     border: 2px solid #2ec2e7;
 }
 #tav{
-    width: 150px;
-    font-size: small;
+    size: 150px;
 }
 #nyar{
-    width: 150px;
-    font-size: small;
+    size: 150px;
 }
 #osz{
-    width: 150px;
-    font-size: small;
+    size: 150px;
 }
 #tel{
-    width: 150px;
-    font-size: small;
+    size: 150px;
 }
