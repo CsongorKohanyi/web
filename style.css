@@ -61,28 +61,17 @@ footer a:hover{
 }
 #tav{
     width: 150px;
+    font-size: small;
 }
 #nyar{
     width: 150px;
+    font-size: small;
 }
 #osz{
     width: 150px;
+    font-size: small;
 }
 #tel{
     width: 150px;
-}
-#tav2{
-    text-align: center;
-    float: left;
-}
-#nyar2{
-    
-}
-#osz2{
-    text-align: center;
-    float: left;
-}
-#tel2{
-    text-align: center;
-    float: right;
+    font-size: small;
 }
