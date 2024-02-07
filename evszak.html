@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+    <style>
+        .fasz{
+            float: left; margin: 10px;
+        }
+        .fasz img {
+            transition: transform 2s case-in-out; 
+        }
+        .fasz:hover img {
+            transform: scale(1.1);
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Évszakok</title>
@@ -25,14 +36,13 @@
 
     <br>
 
-    <div class="tavasz"><img src="img/tavasz1.jpg" alt="tavasz" title="tavasz"></div>
-    <h4>"Tavasz"</h4>
-    <div class="nyar"><img src="img/nyár1.jpg" alt="nyar" title="nyar"></div>
-    <h4 >"Nyár"</h4>
-    <div class="osz"><img src="img/osz1.jpg" alt="osz" title="osz"></div>
-    <h4 >"Ősz"</h4>
-    <div class="tel"><img src="img/tel1.jpg" alt="tel" title="tel"><h4>"Tél"</h4></div>
-    <div id="fasz"></div>
+    <div class="fasz"><img src="img/tavasz1.jpg" alt="tavasz" title="tavasz"><h4>"Tavasz"</h4></div>
+    
+    <div class="fasz"><img src="img/nyár1.jpg" alt="nyar" title="nyar"><h4 >"Nyár"</h4></div>
+    
+    <div class="fasz"><img src="img/osz1.jpg" alt="osz" title="osz"><h4 >"Ősz"</h4></div>
+    
+    <div class="fasz"><img src="img/tel1.jpg" alt="tel" title="tel"><h4>"Tél"</h4></div>
     
     <br>
 
