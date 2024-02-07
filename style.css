@@ -13,6 +13,8 @@
 .topnav a:hover{
     background-color: #1e88b9cc;
     color: lightgreen;
+    transition: transform 2s ease-in-out;
+    transition-duration: 2s;
 }
 .topnav a:active{
     background-color: #2ec2e7;
