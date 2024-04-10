@@ -1,0 +1,16 @@
+.navbar1 a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 25px;
+}
+.navbar1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.alap{
+    text-decoration: underline;
+}
+.kapcsolat{
+    border: 1px solid black;
+}
