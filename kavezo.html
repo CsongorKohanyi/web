@@ -169,7 +169,7 @@
         <h1 class="text-center">Kapcsolat</h1>
 
         <div class="container-fluid gx-5">
-                <form action="uzi">
+                <form action="uzi" id="uzi">
                     <div class="mb-3">
                         <label for="nev">Név</label>
                         <input class="form-control" type="text" name="" id="nev" required placeholder="Kis Pista">
@@ -182,7 +182,7 @@
                         <label for="message">Üzenet</label>
                         <textarea class="form-control" id="message" rows="4" required></textarea>
                     </div>
-                    <input type="submit" class="btn btn-success">
+                    <input type="submit" class="btn btn-success" value="submit" onclick="kuld()">
                 </form>
         </div>
 
@@ -191,5 +191,10 @@
     <footer class="bg-dark text-center text-white p-3 container-fluid">
         <p>© 2024 Csongor Kávézója</p>
     </footer>
+    <script>
+        function kuld (){
+            document.getElementById("uzi").reset();
+        }
+    </script>
 </body>
 </html>
